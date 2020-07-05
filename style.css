@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+body{
+    font-family: 'Bitter', serif;
+}
+.navbar-brand{
+    font-weight: bolder;
+}
+.navbar{
+    margin-top: 20px;
+    background-color: #ffffff !important;
+    box-shadow: 0 10px 30px 0 rgba(138, 155, 165, .45) !important;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 30px;
+    border-radius: 5px;
+}
+
+#navbarNav a{
+    text-align: center;
+}
+.navbar-nav li a:hover{
+   text-decoration: underline;
+}
+.banner-content{
+     text-align: justify;
+     margin-top: 140px;
+     margin-left: 90px;
+}
+.banner-img{
+    margin-top: 80px;
+    
+}
+#animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both; 
+}
+ @-webkit-keyframes up-down{
+    0%{
+      transform: translateY(10px);
+    }
+    100%{
+      transform: translateY(-10px);
+    }
+  }
+  @keyframes up-down{
+    0%{
+      transform: translateY(10px);
+    }
+    100%{
+      transform: translateY(-10px);
+    }
+  }
+.buttons{
+    margin-top: 60px;
+}
+.buttun{
+    margin-right: 100px;
+    border-radius: 0px !important;
+}
+.btn2{
+    border-radius: 0px !important;
+}
+.email{
+    text-align: center;
+    margin-top: 40px;
+    color: #fa1616;
+}
+span{
+    font-weight: bolder;
+}
+.about{
+    margin-top: 100px;
+    box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 2.45) !important;
+    width: 83%;
+    margin-bottom: 100px;
+}
+.about h1{
+    text-align: center;
+    margin-top: 40px;
+}
+.about_content{
+   margin-top: 80px;
+}
+#about_content1{
+    margin-top: 100px;
+    padding-left: 100px !important;
+ }
+
+.main-title{
+   color: #6a097d; 
+   margin-bottom: 60px;
+}
+.progress{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 0px;
+
+}
+.progress-bar{
+    background-color: #01a9b4;
+}
+.ph1:after{
+    content: '93%';
+    position: absolute;
+    right: 40px;
+}
+.ph2:after{
+    content: '90%';
+    position: absolute;
+    right: 40px;
+}
+.ph3:after{
+    content: '85%';
+    position: absolute;
+    right: 40px;
+}
+.card-title{
+    background-color: #dddddd;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.service{
+    padding-bottom: 50px;
+}
+li{
+    color: #000000;
+}
+.card{
+    background-color: #ffffff;
+    
+    border-radius: 0px;
+}
+.card1, .card2, .card3{
+    border: none;
+}
+.card1:before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background:linear-gradient(315deg, #ff0057,#e64a19);
+    transform: skew(2deg,2deg);
+    z-index: -1;
+}
+
+.card2:before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background:linear-gradient(315deg, #89ff00,#00bcd4);
+    transform: skew(2deg,2deg);
+    z-index: -1;
+}
+.card3:before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background:linear-gradient(315deg, #ff0000,#ffc107);
+    transform: skew(2deg,2deg);
+    z-index: -1;
+}
+.hire_me{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./images/banner2.png');
+    background-size: 100% 100% ;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    color: white;
+    padding-top: 100px;
+}
+.btn3{
+    margin-top: 40px;
+}
+input{
+    border: 1px solid #00bcd4 !important;
+    border-radius: 0px !important;
+}
+form{
+
+    padding-bottom: 40px;
+}
+.cont{
+    margin-left: 90px;
+}
+#footer{
+    text-align: center;
+    padding: 40px;
+  
+  }
+  #last{
+      width: 50%;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     margin: auto;
+     color: white;
+     font-family: 'Ubuntu', sans-serif;
+     font-size: 3.5rem;
+     line-height: 1.5;
+  }
+  .cta{
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+      box-shadow: 0 10px 30px 0 rgba(355, 355, 150, 2.45) !important;
+      padding-top: 40px;
+      padding-bottom: 30px;
+      color: white;
+  }
+i{
+    color: #ffffff;
+    letter-spacing: 30px;
+    margin-bottom: 40px;
+}
+.projects{
+    padding-bottom: 60px;
+}
+
+.row{
+    margin-bottom: 30px;
+}
+
+
+@media(max-width:1197px){
+    .banner-content{
+        text-align: center;
+        margin-top: 80px;
+        margin-left: 0px;
+   }
+   .banner-img{
+    margin-top: 50px;
+    margin-left: 0px;
+}
+.btn2{
+    margin-top: 0px !important;
+}
+.buttun{
+    margin-right: 30px;
+    border-radius: 0px !important;
+    margin-bottom: 0px !important;
+}
+.email{
+    margin-top: 40px;
+
+}
+.about{
+    margin-top: 70px;
+    width: 100%;
+}
+.about_content{
+    margin-top: 30px;
+    margin-bottom: 20px;
+ }
+ #about_content1{
+    margin-top: 40px;
+    padding-left: 0px !important;
+ }
+ .button2{
+     text-align: center;
+     margin-top: 30px;
+     margin-bottom: 30px;
+ }
+ .card{
+     margin-bottom: 100px;
+ }
+ .hire_me{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./images/banner2.png');
+    background-size: 100% 100% ;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    color: white;
+    padding-top: 100px;
+}
+
+form{
+    width: 100%;
+    margin: auto;
+}
+
+.butt{
+    text-align: center;
+}
+.cont{
+    margin-left: 0px;
+}
+}
+
+@media(max-width:991px){
+    .btn2{
+        margin-top: 10px;
+    }
+    .buttun{
+     margin-left: 29px;
+     margin-bottom: 10px !important;
+ } 
+   
+}
+
+@media(max-width:778px){
+
+   .btn2{
+       margin-top: 10px;
+   }
+   .buttun{
+    margin-left: 29px;
+    margin-bottom: 10px !important;
+} 
+
+}
+@media(max-width:763px){
+
+    .btn2{
+        margin-top: 0px;
+    }
+    .buttun{
+     margin-left: 0px;
+     margin-bottom: 00px !important;
+ } 
+ 
+ }
